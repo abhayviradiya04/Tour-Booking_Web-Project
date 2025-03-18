@@ -21,13 +21,20 @@
 🛠️ Tech Stack
 Frontend (React.js) 🎨
 React.js ⚛️
+Tailwind CSS (Styling)
 Backend (ASP.NET Core Web API) 🖥️
 ASP.NET Core (C#)
 SQL Server (Database)
 JWT Authentication (User Authentication)
 Razorpay API (Payment Gateway)
 📸 UI Preview
-📷 
+🔹 Home Page
+
+🔹 Tour Details Page
+
+🔹 Booking Page
+
+🔹 Admin Dashboard
 
 🚀 How to Run the Project?
 Backend (ASP.NET Core API) 🏗️
@@ -55,7 +62,12 @@ POST	/api/Booking/Create	Book a tour
 GET	/api/Booking/UserBookings	Get user bookings
 POST	/api/Review/Add	Add a tour review
 📬 Contact Me
-📧 abhayviradiya6236@gmail.com
-🔗 GitHub Profile
+📧 Email: abhayviradiya6236@gmail.com
+🔗 GitHub Profile: Abhay Viradiya
 
-This README provides a clean UI, icons, and structured details for your GitHub repo. Let me know if you want modifications! 🚀😊
+🎯 Notes:
+✔️ Added icons for a better UI experience ✨
+✔️ Used tables for API endpoints 📊
+✔️ Structured sections properly for better readability
+
+🚀 Now, your README looks professional and well-formatted! Let me know if you need any changes. 😊
