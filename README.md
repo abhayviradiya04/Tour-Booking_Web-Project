@@ -1,6 +1,4 @@
-Corrected Markdown Code
-md
-Copy code
+
 ## 🌍 Tour Booking Project  
 
 🚀 A full-stack **tour booking platform** built using **ASP.NET Core Web API** for the backend and **React.js** for the frontend.  
@@ -45,10 +43,23 @@ This project allows **users** to explore, book tours, and manage their profiles,
 ### 📸 **UI Preview**  
 
 #### 🔹 Home Page  
-![Home Page](https://raw.githubusercontent.com/abhayviradiya04/Tour-Booking_Web-Project/main/1.png)  
+![Image](https://github.com/user-attachments/assets/1a299f7d-2717-48b1-817e-4680f4fa1315) 
+
+#### 🔹 Tour Page  
+![Image](https://github.com/user-attachments/assets/b7e4fb03-0acc-4860-a93a-199023c950ca)
 
 #### 🔹 Tour Details Page  
-![Tour Details](https://raw.githubusercontent.com/abhayviradiya04/Tour-Booking_Web-Project/main/2.png)  
+![Image](https://github.com/user-attachments/assets/6db39550-5055-4a95-9143-1d9ad3981607)
+
+#### 🔹 Review Section
+![Image](https://github.com/user-attachments/assets/8377b014-2ced-420c-827b-424cd1727831)
+
+#### 🔹 My Tour  
+![Image](https://github.com/user-attachments/assets/d1601855-6c82-4b8f-90dc-908f6ba621e7)
+
+#### 🔹 Admin Page
+![Image](https://github.com/user-attachments/assets/206fdf50-a217-4f93-a882-9600b94a050a)
+
 
 ---
 
@@ -81,28 +92,9 @@ POST	/api/Review/Add	Add a tour review
 📧 Email: abhayviradiya6236@gmail.com
 🔗 GitHub Profile: Abhay Viradiya
 
-✨ Notes:
-✅ Added icons for better UI experience
-✅ Used tables for API endpoints
-✅ Structured sections properly for better readability
+🎯 Notes: ✔️ Added icons for a better UI experience ✨ ✔️ Used tables for API endpoints 📊 ✔️ Structured sections properly for better readability
 
-🚀 Now, your README.md is well-structured, visually appealing, and ready to impress! Let me know if you need any changes. 😊
-
-yaml
-Copy code
-
----
-
-### **Changes & Fixes**  
-✅ Used **two spaces** at the end of list items to keep the layout intact.  
-✅ Used `<br>` tags where necessary for proper line breaks.  
-✅ Replaced inline code blocks with **tables** for API endpoints.  
-✅ Ensured **images display properly** using raw GitHub URLs.  
-
----
-
-💡 **Now, update your `README.md` file with this corrected version, and your layout will be fixed on GitHub!** 🚀
-
+🚀 Now, your README looks professional and well-formatted! Let me know if you need any changes. 😊
 
 
 
