@@ -1,0 +1,81 @@
+.button_style{
+    background-color: var(--secondary-color) !important;
+    
+}
+
+.link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.add-tour-btn {
+    width: 60px;
+    height: 60px;
+    background: var(--secondary-color);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    box-shadow: 0 4px 15px rgba(148, 0, 255, 0.3);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.add-tour-btn i {
+    transition: all 0.3s ease;
+}
+
+.add-tour-btn:hover {
+    background: var(--primary-color);
+    color: white;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(148, 0, 255, 0.4);
+}
+
+.add-tour-btn:hover i {
+    transform: rotate(90deg);
+}
+/* Center the container and add padding */
+.admin-panel {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Style for button group */
+.btn-group-custom {
+    gap: 15px; /* Add spacing between buttons */
+}
+
+/* Button styling */
+.button-custom {
+    background: linear-gradient(90deg, #9400FF, #9400FF); /* Blue gradient */
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.button-custom:hover {
+    background: linear-gradient(90deg, #9400FF, #9400FF); /* Darker gradient */
+    transform: scale(1.05);
+}
+
+/* Link styling */
+.link-custom {
+    text-decoration: none;
+    color: white;
+}
+
+.link-custom:hover {
+    text-decoration: underline;
+    color: #fff; /* Light blue */
+}
+

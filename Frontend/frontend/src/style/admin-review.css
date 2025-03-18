@@ -1,0 +1,125 @@
+.admin-reviews {
+    padding: 3rem 0;
+}
+
+.review-title {
+    color: var(--heading-color);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.review-card {
+    border: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+}
+
+.review-card__header {
+    background: var(--secondary-color);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.user-info i {
+    font-size: 1.2rem;
+}
+
+.user-info h4 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.review-card__body {
+    padding: 1.5rem;
+}
+
+.review-info {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.review-info i {
+    color: #9400FF;
+    font-size: 1.2rem;
+}
+
+.review-text {
+    margin: 1rem 0;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.review-text p {
+    margin: 0;
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.review-tour {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    color: var(--text-color);
+}
+
+.review-tour i {
+    color: var(--secondary-color);
+}
+
+.delete-btn {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 5px;
+    transition: all 0.3s ease;
+    opacity: 0.8;
+}
+
+.delete-btn:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    color: #ff4d4d;
+}
+
+/* Loading Spinner */
+.loading-spinner {
+    padding: 3rem 0;
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid var(--secondary-color);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Pagination styles remain the same as admin-booking-tours.css */ 

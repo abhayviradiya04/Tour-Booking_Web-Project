@@ -1,0 +1,131 @@
+.register__img{
+    
+    width: 60%;
+    text-align: center;
+}
+.register__img img{
+    width: 70%;
+    object-fit: contain;
+}
+.register__form{
+    
+    padding: 50px;
+    background: var(--secondary-color);
+    position: relative;
+}
+.register__contain{
+    box-shadow: rgba(17,12,46,0.15) 0px 48px 100px 0px;
+    margin-top: 100px;
+}
+.register__form .user{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -9%;
+    left: 50%;
+    transform: translate(-50%,-9%);
+}
+
+.register__form .user img{
+    width: 100%;
+}
+
+.register__form h2{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2rem
+
+}
+
+.register__form{
+    width: 40%;
+}
+
+.register__form input{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    color: var(--heading-color);
+}
+.register__form input:focus{
+    border: none;
+}
+
+.auth__btn {
+    background: var(--heading-color) !important;
+    width: 100%;
+    color: #fff !important;
+    margin: 10px 0; /* Adds margin on top and bottom */
+    padding: 12px 20px; /* Adjusts padding for better spacing */
+    border: none; /* Removes border */
+    border-radius: 5px; /* Adds rounded corners */
+    
+}
+
+.register__form p{
+    font-size: 0.9rem;
+    color: #fff;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+.register__form p a{
+    color:black;
+    border-bottom: 2px solid black;
+    text-decoration: none;
+    margin-left: 5px;
+    font-weight: 500;
+}
+
+.otp-input {
+    letter-spacing: 8px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.resend-otp {
+    color: #666;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.resend-otp:hover {
+    color: #333;
+}
+.error-message {
+    color: #fff;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+.btonclick {
+    
+    background-color: white !important;
+    color: black !important;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btonclick:hover {
+    background-color: black !important;
+    color: white !important;
+}
+
+
+@media (max-width: 992px) {
+    .register__contain {
+        flex-direction: column;
+    }
+
+    .register__img {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .register__form {
+        width: 100%;
+        border-radius: 0;
+    }
+}

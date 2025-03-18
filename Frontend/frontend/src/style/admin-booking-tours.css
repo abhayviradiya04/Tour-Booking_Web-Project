@@ -1,0 +1,157 @@
+.booking-tours {
+    padding: 3rem 0;
+}
+
+.booking-title {
+    color: var(--heading-color);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.booking-card {
+    border: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.booking-card:hover {
+    transform: translateY(-5px);
+}
+
+.booking-card__header {
+    background: var(--secondary-color);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.booking-card__header h4 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.delete-btn {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    opacity: 0.8;
+}
+
+.delete-btn:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    color: #ff4d4d;
+}
+
+/* Add hover effect to the whole card header */
+.booking-card__header:hover .delete-btn {
+    opacity: 1;
+}
+
+.booking-card__body {
+    padding: 1.5rem;
+}
+
+.booking-info {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.booking-info:last-child {
+    margin-bottom: 0;
+}
+
+.booking-info i {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+}
+
+.booking-info span {
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+/* Loading Spinner */
+.loading-spinner {
+    padding: 3rem 0;
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid var(--secondary-color);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Pagination */
+.page__numbers {
+    padding: 8px;
+    background: #fff;
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s;
+    min-width: 40px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+}
+
+.page__numbers:hover {
+    background: var(--secondary-color);
+    color: #fff;
+}
+
+.page__numbers.active {
+    background: var(--secondary-color);
+    color: #fff;
+    border-color: var(--secondary-color);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .booking-title {
+        font-size: 1.5rem;
+    }
+
+    .booking-card__header h4 {
+        font-size: 1.1rem;
+    }
+
+    .booking-info {
+        gap: 0.5rem;
+    }
+
+    .booking-info i {
+        font-size: 1rem;
+    }
+
+    .booking-info span {
+        font-size: 0.9rem;
+    }
+} 
